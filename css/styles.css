@@ -70,37 +70,13 @@ h4 {
     margin: 0 0 16px;
 }
 
-header {
-    border-bottom: solid 1px var(--border-color);
-    padding: 24px 0;
-}
-
-footer {
-    padding: 100px 0;
-    background-color: var(--secondary-text-color);
-}
-
-.footer-info {
-    width: 264px;
-    margin-top: 18px;
-    color: var(--footer-text-color);
+button {
+	font-family: inherit;
+	color: currentColor;
 }
 
 section {
     padding: 120px;
-}
-
-.features {
-    padding-bottom: 0;
-}
-
-.filter {
-    padding-top: 96px;
-    padding-bottom: 72px;
-}
-
-.projects {
-    padding-top: 0;
 }
 
 img {
@@ -131,6 +107,11 @@ img {
 /* Index html */
 
 /* Header */
+
+header {
+    border-bottom: solid 1px var(--border-color);
+    padding: 24px 0;
+}
 
 .logo {
     font-family: var(--logo-font);
@@ -207,6 +188,17 @@ img {
 
 /* Footer */
 
+footer {
+    padding: 100px 0;
+    background-color: var(--secondary-text-color);
+}
+
+.footer-info {
+    width: 264px;
+    margin-top: 18px;
+    color: var(--footer-text-color);
+}
+
 .footer-socials {
     display: block;
 }
@@ -280,6 +272,10 @@ img {
 }
 
 /* Features */
+
+.features {
+    padding-bottom: 0;
+}
 
 .features-list {
     display: flex;
@@ -390,6 +386,11 @@ img {
 
 /* Filter */
 
+.filter {
+    padding-top: 96px;
+    padding-bottom: 72px;
+}
+
 .btn-filter {
     color: var(--btn-color);
     background-color: var(--footer-text-color);
@@ -415,6 +416,10 @@ img {
 
 
 /* Projects */
+
+.projects {
+    padding-top: 0;
+}
 
 .project-list {
     display: flex;
